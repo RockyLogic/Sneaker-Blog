@@ -1,0 +1,27 @@
+{
+  "name": "sneaker-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockyLogic/Sneaker-Blog.git"
+  },
+  "author": "RockyLogic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockyLogic/Sneaker-Blog/issues"
+  },
+  "homepage": "https://github.com/RockyLogic/Sneaker-Blog#readme"
+}

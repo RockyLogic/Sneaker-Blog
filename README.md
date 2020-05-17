@@ -18,6 +18,9 @@ The Forum was built using Node.js, Express framework, MongoDB, and Semantic UI. 
 - ### Destroy
 <img src="https://cdn.discordapp.com/attachments/613371646937399296/711473130035740703/unknown.png">
 
+# Demo
+![](https://imgur.com/TEnko0X)
+
 # Possible features to come:
 - Login functionalities
 - User authorization & authentication

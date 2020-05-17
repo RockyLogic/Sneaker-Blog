@@ -1,3 +1,9 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 i.icon {
     font-size: 2em;
 }
@@ -7,4 +13,13 @@ i.icon {
 
 #delete {
     display: inline;
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#blogTitle{
+    color:white;
 }

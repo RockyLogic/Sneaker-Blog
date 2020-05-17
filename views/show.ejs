@@ -5,14 +5,14 @@
         <div class="item">
             <img class="ui centered rounded image"src="<%=blog.image%>">
             <div class="content">
-                <span><%=blog.created.toDateString()%></span>
+                <span><strong><%=blog.created.toDateString()%></strong></span>
             </div>
             <div class="description">
                 <p><%-blog.body%></p>
             </div>
-            <a class="positive ui button" href="/blogs/<%= blog._id %>/edit">Edit</a>
+            <a class="ui inverted purple button" href="/blogs/<%= blog._id %>/edit">Edit</a>
             <form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
-                <button class="negative ui button">Delete</button>
+                <button class="ui inverted violet button">Delete</button>
             </form>
         </div>
     </div>

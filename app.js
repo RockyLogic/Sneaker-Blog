@@ -86,9 +86,10 @@ app.post("/blogs", (req,res) => {
 
 //Show: route displaying the full blog
 app.get("/blogs/:id", (req, res)=>{
-    Blog.find(req.params.id, (err, foundBlog)=>{
+    Blog.findById(req.params.id, (err, foundBlog)=>{
         if(err){
             //redirects to index on error
+            console.log("[DataBase] Blog: "+req.params.id +" Not Found");
             res.redirect("/blogs");
         }else{
             res.render("show", {blog: foundBlog});

@@ -21,5 +21,10 @@ i.icon {
 }
 
 #blogTitle{
-    color:white;
+    color:rgb(212, 152, 151);
+}
+
+.blogHeader :hover{
+    color:purple;
+    text-decoration: none;
 }

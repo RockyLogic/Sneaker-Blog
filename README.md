@@ -1,6 +1,6 @@
 # Sneaker Blogs
 
-<img src="https://cdn.discordapp.com/attachments/613371646937399296/711463578556694578/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/613371646937399296/711675503186280590/unknown.png">
 
 # Introduction
 Sneaker Blog is a forum specifically dedicated to sneakers. This platform was created for sneaker enthusiasts, allows any user to create posts regarding anything sneaker related! From questions, opinions, to outfits and etc.

@@ -98,8 +98,8 @@ app.get("/blogs/:id", (req, res)=>{
 });
 
 //Edit: Route to edit
-app.get("/blogs/:id/edit", (req, res)=>{
-    Blog.find(req.param.id, (err, foundBlog) =>{
+app.get("/blogs/:id/edit", (req, res) =>{
+    Blog.findById(req.params.id, (err, foundBlog) =>{
         if(err){
             //redirect back to index on error
             res.redirect("/blogs");

@@ -16,7 +16,7 @@ The Forum was built using Node.js, Express framework, MongoDB, and Semantic UI. 
 - ### Read
 <img src="https://media.discordapp.net/attachments/613371646937399296/711463730449481738/unknown.png">
 
-- ### Edit
+- ### Update
 <img src="https://cdn.discordapp.com/attachments/613371646937399296/711464623089647656/unknown.png">
 
 - ### Destroy
